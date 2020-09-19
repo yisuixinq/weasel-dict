@@ -26,10 +26,10 @@
 #
 
 patch:
-
-#  "punctuator/import_preset" : symbols
-#  "punctuator/import_preset" : half_shape
-#  "recognizer/patterns/punct": "^/([A-Z|a-z]*|[0-9]|10)$"
+    
+  'punctuator/import_preset': alternative
+  'key_binder/import_preset': alternative
+  "recognizer/patterns/punct": "^/([A-Z|a-z]*|[0-9]|10)$"
   
   switches/@next:
     name: emoji_suggestion

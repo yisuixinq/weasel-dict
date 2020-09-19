@@ -2,9 +2,14 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.14.3
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Sat Sep 19 11:27:13 2020"
+  modified_time: "Sat Sep 19 20:57:03 2020"
   rime_version: 1.5.3
 patch:
-  "style/color_scheme": cool_breeze
+  preset_color_schemes:
+    cool_breeze: {author: "skoj <skoj@qq.com>", back_color: 0xFFFBFB, border_color: 0xFFAAAA, candidate_text_color: 0x009100, hilited_back_color: 0xFFFBFB, hilited_candidate_back_color: 0xFFD6AC, hilited_candidate_text_color: 0x6F003A, hilited_text_color: 0x0000CE, name: "清風／Cool Breeze", text_color: 0x0000FF}
+    mritd_dark: {author: "mritd <mritd1234@gmail.com>", back_color: 0x4b4b4b, border_color: 0x4b4b4b, border_color_width: 0, border_height: 6, border_width: 6, candidate_format: "%c %@", candidate_text_color: 0xffffff, comment_text_color: 0xdedddd, corner_radius: 5, font_point: 16, hilited_back_color: 0x252320, hilited_candidate_back_color: 0x4b4b4b, hilited_candidate_label_color: 0xffffff, hilited_candidate_text_color: 0xFFE696, hilited_corner_radius: 3, hilited_text_color: 0xdedddd, horizontal: true, inline_preedit: true, label_color: 0x888785, label_font_point: 14, name: "漠然／mritd dark", text_color: 0xdedddd}
+    so_young: {author: "五磅兔 zcunlin@foxmail.com", back_color: 0xe3f6fd, border_color: 0xd5e8ee, candidate_text_color: 0x837b65, comment_text_color: 0xd28b26, hilited_back_color: 0xd5e8ee, hilited_candidate_back_color: 0x98a12a, hilited_candidate_text_color: 0xd5e8ee, hilited_comment_text_color: 0xd5e8ee, hilited_text_color: 0x969483, label_color: 0xa1a193, name: "致青春／So Young", text_color: 0x8236d3}
+  show_notifications_when: appropriate
+  "style/color_scheme": so_young
   "style/display_tray_icon": false
   "style/horizontal": true

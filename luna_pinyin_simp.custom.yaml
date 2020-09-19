@@ -92,10 +92,13 @@ patch:
   # english 翻譯器的設定項
   english:
     dictionary: easy_en
-    spelling_hints: 3
+    spelling_hints: 9
     enable_completion: true
     enable_sentence: false
-    initial_quality: -3
+    initial_quality: 0
+  recognizer/patterns/uppercase: ''
+  speller/alphabet:
+    __include: easy_en.schema:/speller/alphabet
 
   # 載入朙月拼音擴充詞庫
   "translator/dictionary": luna_pinyin_simp.extended

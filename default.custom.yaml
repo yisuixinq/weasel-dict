@@ -44,7 +44,6 @@ patch:
       # optimized_mode_switch:
       - { when: always, accept: Shift+space, toggle: ascii_mode }
       - { when: always, accept: Control+period, toggle: ascii_punct }
-      - { when: always, accept: Control+slash, toggle: simplification }
       - { when: always, accept: Control+backslash, toggle: extended_charset }
 
   schema_list:
@@ -124,7 +123,7 @@ patch:
       "&": "&"
       "*": "*"
       "+": "+"
-      "/": "/"
+      "/": ["/"]
       
     ascii_style:
       ',' : { commit: ',' }

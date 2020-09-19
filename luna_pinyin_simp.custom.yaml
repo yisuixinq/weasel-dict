@@ -27,6 +27,10 @@
 
 patch:
 
+#  "punctuator/import_preset" : symbols
+#  "punctuator/import_preset" : half_shape
+#  "recognizer/patterns/punct": "^/([A-Z|a-z]*|[0-9]|10)$"
+  
   switches/@next:
     name: emoji_suggestion
     reset: 1
@@ -96,9 +100,6 @@ patch:
     enable_completion: true
     enable_sentence: false
     initial_quality: 0
-  recognizer/patterns/uppercase: ''
-  speller/alphabet:
-    __include: easy_en.schema:/speller/alphabet
 
   # 載入朙月拼音擴充詞庫
   "translator/dictionary": luna_pinyin_simp.extended

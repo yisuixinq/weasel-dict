@@ -59,13 +59,12 @@ import_tables:
     - luna_pinyin.daily
 
     - luna_pinyin.sougou_art
-    # - luna_pinyin.practical
-
     - luna_pinyin.sougou_culture
-    # - luna_pinyin.sougou_geography
     - luna_pinyin.sougou_entertainment
-    # - luna_pinyin.sougou_social
     - luna_pinyin.sougou_science
+#     - luna_pinyin.sougou_geography
+#     - luna_pinyin.sougou_social
+#     - luna_pinyin.practical
     
     # 
     # - luna_pinyin.sougou_agriculture

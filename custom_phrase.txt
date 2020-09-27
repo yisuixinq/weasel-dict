@@ -42,5 +42,5 @@ yisuixinqu@qq.com	qmail
 macOS High Sierra	macoshs
 
 Administrator	administrator
-Admin@9000	admin
-
+EMACS	emacs
+Emacs	emacs
